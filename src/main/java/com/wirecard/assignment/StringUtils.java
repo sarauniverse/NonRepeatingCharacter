@@ -14,7 +14,7 @@ public class StringUtils {
      * @param word The input string
      * @return The first non repeating character.
      */
-    public static char getFirstNonRepeatingChar(String word) {
+    public static char getFirstNonRepeatedChar(String word) {
         Character nonRepeatingCharacter = Character.MIN_VALUE;
         if(word == null) {
             return nonRepeatingCharacter.charValue();

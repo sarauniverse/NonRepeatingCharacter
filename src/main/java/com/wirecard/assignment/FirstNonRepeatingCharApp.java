@@ -6,6 +6,6 @@ package com.wirecard.assignment;
 public class FirstNonRepeatingCharApp {
 
     public static void main(String[] args) {
-        System.out.println(StringUtils.getFirstNonRepeatingChar("Sarangan"));
+        System.out.println(StringUtils.getFirstNonRepeatedChar("Sarangan"));
     }
 }
