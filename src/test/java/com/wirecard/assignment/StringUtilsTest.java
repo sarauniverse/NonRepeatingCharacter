@@ -39,6 +39,14 @@ public class StringUtilsTest {
     }
 
     /**
+     * Checking the correctness of the function with a long string
+     */
+    @Test
+    public void getFirstNonRepeatingChar_LongString() {
+        Assert.assertEquals('c',StringUtils.getFirstNonRepeatingChar("lksjdfordcklbjfjgofthjvbkmlhjgfojbv90w45dlkjgdlfkjnbbldrijtaawehgkiollkrlsjngdkfjh"));
+    }
+
+    /**
      * Checks the correctness of the function when the input is null.
      * The function is expected to result the default value of the character in Java. (ie) \u0000
      */
